@@ -12,4 +12,4 @@ phases:
   post_build:
     commands:
       - echo "Tests run succesfully"
-      - aws s3 sync build/ s3://your-bucket-name
+      - aws s3 sync build/ s3://pasi-react-bucket
